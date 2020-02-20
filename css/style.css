@@ -1,0 +1,36 @@
+
+.text-esteticaColor {
+    color: #660e80 !important;
+}
+  
+a.text-esteticaColor:hover, a.text-esteticaColor:focus {
+    color: #660e80 !important;
+    font-weight: bold;
+    border: solid;
+    border-width: 1px;
+    border-color: #660e80;
+    border-radius: 30px;
+    
+}
+
+
+.border-esteticaColor {
+    border-color: #660e80 !important;
+    border-width: 2px !important;
+}
+/* Efeito sobra */
+.sombra{
+    display:inline-block;
+    vertical-align:middle;
+    -webkit-transform:perspective(0) translateZ(0);
+    transform:perspective(0) translateZ(0);
+    box-shadow:0 0 rgba(0,0,0,0);
+    -webkit-transition-duration:.1s;
+    transition-duration:.1s;
+    -webkit-transition-property:box-shadow;
+    transition-property:box-shadow;
+}
+
+.sombra:active,.sombra:focus,.sombra:hover{
+    box-shadow:0 10px 10px -10px rgba(0,0,0,.5)
+}
